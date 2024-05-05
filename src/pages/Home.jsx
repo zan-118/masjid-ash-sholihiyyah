@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div
-      className="hero min-h-screen flex items-center justify-center"
+      className="hero min-h-screen  items-center justify-center"
       style={{
         backgroundImage:
           "url(https://images.unsplash.com/flagged/photo-1558113118-e42e558b352a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
@@ -11,7 +11,6 @@ const Home = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">
